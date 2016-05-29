@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="./anvil-connect.src.js"></script>
+</head>
+<body>
+  <a href="" id="signin">Sign in</a>
+</body>
+<script>
+  // config goes here
+  // client_id, issuer, redirect_uri etc
+
+  document.addEventListener('DOMContentLoaded', function () { init() })
+
+  function init () {
+    document.getElementById('signin').addEventListener('click', function() {
+      alert('signing in')
+    })
+  }
+</script>
+</html>
